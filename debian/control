@@ -1,0 +1,30 @@
+Source: python-snuggs
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Johan Van de Wauw <johan.vandewauw@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 10~),
+               dh-python,
+               python3-all,
+               python3-hypothesis,
+               python3-numpy,
+               python3-setuptools,
+               python3-pytest,
+               python3-click,
+               python3-pyparsing,
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/python-snuggs
+Vcs-Git: https://salsa.debian.org/debian-gis-team/python-snuggs.git
+Homepage: https://github.com/mapbox/snuggs
+
+Package: python3-snuggs
+Architecture: all
+Depends: python3-lxml,
+         ${python3:Depends},
+         ${misc:Depends}
+Description: S-expressions for numpy - Python 3 version
+ This library parses S-expressions using numpy. Available function include
+ arithmetic and logical operators. Also members of the numpy module such as
+ "asarray()", "mean()" and "where" are available.
+ .
+ This package provides the Python 3 version of the library.
