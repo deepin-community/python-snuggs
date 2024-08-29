@@ -2,5 +2,5 @@ version=4
 opts="dversionmangle=s/\+(debian|dfsg|ds|deb)\d*$//,\
 uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha)\d*)$/$1~$2/,\
 filenamemangle=s/(?:.*?)?[vr]?(\d[\d\.\-\w]*)\.tar\.gz/snuggs-$1.tar.gz/" \
-https://github.com/mapbox/snuggs/releases \
-(?:.*?/archive/)?(?:rel|r|v|snuggs)?[\-\_]?(\d[\d\-\.]+)\.(?:tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+https://github.com/mapbox/snuggs/tags \
+(?:.*?/archive/(?:.*?/)?)?(?:rel|r|v|snuggs)?[\-\_]?(\d[\d\-\.]+)\.(?:tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
