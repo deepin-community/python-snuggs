@@ -1,3 +1,26 @@
+python-snuggs (1.4.7-4) unstable; urgency=medium
+
+  * Team upload.
+  * Enable numpy3 dh helper.
+  * Bump Standards-Version to 4.6.2, no changes.
+  * Bump debhelper compat to 13.
+  * Use autopkgtest-pkg-pybuild testsuite.
+  * Enable Salsa CI.
+  * Add patch to fix FTBFS due to test failures.
+    (closes: #1042278)
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 27 Jul 2023 05:37:35 +0200
+
+python-snuggs (1.4.7-3) unstable; urgency=medium
+
+  * Team upload.
+  * Bump Standards-Version to 4.6.1, no changes.
+  * Update watch file for GitHub URL changes.
+  * Bump debhelper compat to 12, no changes.
+  * Add Rules-Requires-Root to control file.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 01 Dec 2022 17:56:47 +0100
+
 python-snuggs (1.4.7-2) unstable; urgency=medium
 
   * Team upload.
